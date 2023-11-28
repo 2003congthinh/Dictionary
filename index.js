@@ -50,7 +50,7 @@ button.className = "button";
 button.id = word[i];
 // Add an event listener to the button to call the pronounceWord function
 button.addEventListener("click", function () {
-    pronounceWord(words[i]);
+    pronounceWord(word[i]);
 });
 document.getElementById("content").appendChild(div).appendChild(button);
 }
