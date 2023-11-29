@@ -34,7 +34,7 @@ function pronounceWord(word) {
     var utterance = new SpeechSynthesisUtterance(word);
 
     // Use the default speech synthesis voice
-    utterance.voice = speechSynthesis.getVoices()[0];
+    utterance.voice = speechSynthesis.getVoices()[2];
 
     // Speak the word
     speechSynthesis.speak(utterance);
